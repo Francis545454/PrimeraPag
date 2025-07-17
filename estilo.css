@@ -1,0 +1,154 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    color: #4a4a4a;
+}
+
+h1 {
+    color: #1a73e8;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2, h4 {
+    color: #333;
+    margin-top: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+ul {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    line-height: 1.5em;
+}
+
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table td {
+    border: 1px solid #d0d7de;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+.logo-uninter {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 150px;
+    height: auto;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.logo-uninter:hover {
+    transform: scale(1.1);
+}
+#botaoMensagem {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #3bf04a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botaoMensagem:hover {
+    background-color: #155ab6;
+}
+
+#mensagem {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #333;
+}
+h5 {
+    text-align: center;
+    color: #1a73e8;
+    font-size: 1.3em;
+    margin-top: 30px;
+    font-weight: 500;
+}
+#contenedorGato {
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#gatoEstilo {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#gatoEstilo:hover {
+    transform: scale(1.05);
+}
+
+#mensajeExtra {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+

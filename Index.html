@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WebFrancis</title>
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+    <!-- Presentación -->
+    <a href="https://www.uninter.com" target="_blank">
+        <img src="Imag/Uninter.png" alt="Logo UNINTER" class="logo-uninter" />
+    </a>
+
+    <h1>Francisco Javier Licett Rendón</h1>
+    <br />
+    <p>
+        Muito prazer, meu nome é Francisco, tenho 18 anos, curso engenharia de sistemas
+        na Uninter, moro em Caxias do Sul e gosto muito de informática.
+    </p>
+    <ul>
+        <li>Gosto de arte, é um ótimo passatempo.</li>
+        <li>Gosto muito de tecnologia, principalmente de pesquisar seu funcionamento e desenvolvimento.</li>
+        <li>Gosto de cozinhar e preparar receitas de diferentes países</li>
+    </ul>
+    <img src="Imag/Cocinar.jpeg" alt="CocinarPasatiempo" />
+
+    <!-- Tabela de países -->
+    <h2>Países que quiero visitar</h2>
+
+    <table border="1">
+        <tr>
+            <td>Japón</td>
+            <td><img src="Imag/Japon.jpg" alt="Japón" width="200" /></td>
+        </tr>
+        <tr>
+            <td>España</td>
+            <td><img src="Imag/españa.jpg" alt="España" width="200" /></td>
+        </tr>
+        <tr>
+            <td>Francia</td>
+            <td><img src="Imag/francia.jpg" alt="Francia" width="200" /></td>
+        </tr>
+    </table>
+
+    <!-- Link de música -->
+    <h4>
+        Um dos meus cantores favoritos que até hoje continua sendo um dos maiores,
+        Você pode ouvir algumas de suas músicas:
+        <a href="https://www.youtube.com/watch?v=Zi_XLOBDo_Y&list=RDZi_XLOBDo_Y&start_radio=1" target="_blank">
+            Michael Jackson - Billie Jean
+        </a>
+    </h4>
+
+    <!-- Botón interactivo -->
+    <br />
+    <br />
+    <h5>Clique aqui para uma surpresa!</h5>
+
+    <!-- Contenedor para la imagen y el mensaje -->
+    <div id="contenedorGato" style="display: none;">
+        <img src="Imag/Gato.jpg" alt="Gatito motivacional" id="gatoEstilo" />
+        <p id="mensajeExtra">
+            Você consegue, anime-se, você é o melhor e vai conseguir grandes coisas.
+        </p>
+    </div>
+
+    <button id="botaoMensagem">Clique para ver uma mensagem!</button>
+    <p id="mensagem"></p>
+
+    <!-- Enlace al archivo JavaScript separado -->
+    <script src="script.js"></script>
+</body>
+</html>
